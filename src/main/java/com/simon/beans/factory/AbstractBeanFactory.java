@@ -1,6 +1,6 @@
-package com.simon.factory;
+package com.simon.beans.factory;
 
-import com.simon.BeanDefinition;
+import com.simon.beans.BeanDefinition;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -34,7 +34,7 @@ public abstract class AbstractBeanFactory implements BeanFactory{
         return bean;
     }
 
-    @Override
+
     public void registerBeanDefinition(String name, BeanDefinition beanDefinition) throws Exception {
         beanDefinitionName.add(name);
         beanDefinitionMap.put(name,beanDefinition);

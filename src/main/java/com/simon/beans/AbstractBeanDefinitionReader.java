@@ -1,7 +1,7 @@
-package com.simon;
+package com.simon.beans;
 
 
-import com.simon.io.ResourceLoader;
+import com.simon.beans.io.ResourceLoader;
 
 import java.util.HashMap;
 import java.util.Map;

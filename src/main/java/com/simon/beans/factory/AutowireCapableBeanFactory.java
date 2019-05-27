@@ -1,9 +1,9 @@
-package com.simon.factory;
+package com.simon.beans.factory;
 
 
-import com.simon.BeanDefinition;
-import com.simon.BeanReference;
-import com.simon.PropertyValue;
+import com.simon.beans.BeanDefinition;
+import com.simon.beans.BeanReference;
+import com.simon.beans.PropertyValue;
 
 import java.lang.reflect.Field;
 

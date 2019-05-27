@@ -1,10 +1,10 @@
-package com.simon.xml;
+package com.simon.beans.xml;
 
-import com.simon.AbstractBeanDefinitionReader;
-import com.simon.BeanDefinition;
-import com.simon.BeanReference;
-import com.simon.PropertyValue;
-import com.simon.io.ResourceLoader;
+import com.simon.beans.AbstractBeanDefinitionReader;
+import com.simon.beans.BeanDefinition;
+import com.simon.beans.BeanReference;
+import com.simon.beans.PropertyValue;
+import com.simon.beans.io.ResourceLoader;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;

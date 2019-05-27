@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.beans;
 
 /**
  * 引用Bean定义

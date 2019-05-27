@@ -1,4 +1,4 @@
-package com.simon.io;
+package com.simon.beans.io;
 
 import java.net.URL;
 

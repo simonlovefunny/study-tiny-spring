@@ -1,7 +1,7 @@
-package com.simon.xml;
+package com.simon.beans.xml;
 
-import com.simon.BeanDefinition;
-import com.simon.io.ResourceLoader;
+import com.simon.beans.BeanDefinition;
+import com.simon.beans.io.ResourceLoader;
 import org.junit.Assert;
 import org.junit.Test;
 

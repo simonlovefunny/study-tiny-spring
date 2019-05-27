@@ -1,9 +1,10 @@
 package com.simon;
 
-import com.simon.factory.AbstractBeanFactory;
-import com.simon.factory.AutowireCapableBeanFactory;
-import com.simon.io.ResourceLoader;
-import com.simon.xml.XmlBeanDefinitionReader;
+import com.simon.beans.BeanDefinition;
+import com.simon.beans.factory.AbstractBeanFactory;
+import com.simon.beans.factory.AutowireCapableBeanFactory;
+import com.simon.beans.io.ResourceLoader;
+import com.simon.beans.xml.XmlBeanDefinitionReader;
 import org.junit.Test;
 
 import java.util.Map;
@@ -25,7 +26,7 @@ public class BeanFactoryTest {
 
         //2.初始化BeanFactory并注册bean
         AbstractBeanFactory beanFactory = new AutowireCapableBeanFactory();
-        for(Map.Entry<String,BeanDefinition> beanDefinitionEntry: xmlBeanDefinitionReader.getRegistry().entrySet()){
+        for(Map.Entry<String, BeanDefinition> beanDefinitionEntry: xmlBeanDefinitionReader.getRegistry().entrySet()){
             beanFactory.registerBeanDefinition(beanDefinitionEntry.getKey(),beanDefinitionEntry.getValue());
         }
 

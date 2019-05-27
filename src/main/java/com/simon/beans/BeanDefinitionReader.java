@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.beans;
 
 /**
  * 从配置中读取BeanDefinitionReader

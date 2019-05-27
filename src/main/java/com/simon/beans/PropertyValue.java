@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.beans;
 
 /**
  * 用于bean的属性注入

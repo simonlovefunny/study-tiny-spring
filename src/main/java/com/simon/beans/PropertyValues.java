@@ -1,4 +1,4 @@
-package com.simon;
+package com.simon.beans;
 
 import java.util.ArrayList;
 import java.util.List;
