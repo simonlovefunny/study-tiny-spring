@@ -1,23 +1,12 @@
 package com.simon;
 
 /**
- * @author yihua.huang@dianping.com
+ * helloservice接口
+ *
+ * @Author: wuzhaoyi
+ * @version: $id:HelloWorldService.java,v0.1  2019/5/31 7:41 PM wuzhaoyi Exp$
  */
-public class HelloWorldService {
+public interface HelloWorldService {
 
-    private String text;
-
-    private OutputService outputService;
-
-    public void helloWorld(){
-        outputService.output(text);
-    }
-
-    public void setText(String text) {
-        this.text = text;
-    }
-
-    public void setOutputService(OutputService outputService) {
-        this.outputService = outputService;
-    }
+    void helloWorld();
 }

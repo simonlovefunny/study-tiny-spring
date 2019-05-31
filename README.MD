@@ -10,3 +10,13 @@ tiny-spring学习项目
 Java语言使用者，Spring框架是必须深刻理解的，因此有了这个项目。按照tiny-spring作者的说法，这是对于已完成项目的临摹。
 
 
+AOP
+Spring Aop仅支持方法级别的调用
+MethodInterceptor-Advice 切点指定的逻辑
+MethodInvocation-Joinpoint 切入点
+
+
+
+
+
+
