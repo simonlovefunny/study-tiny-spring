@@ -27,6 +27,7 @@ AOP融入Spring创建bean的过程
 BeanPostProcessor BeanFactory提供了BeanPostProcessor，如果bean实现了BeanPostProcessor接口，那么spring在初始化bean的过程中就会优先找到它们，并在bean初始化的时候，调用这个接口方法。
 
 
+cglib实现代理
 
 
 
