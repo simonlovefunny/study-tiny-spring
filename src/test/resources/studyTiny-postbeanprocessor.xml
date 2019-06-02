@@ -16,8 +16,7 @@
         <property name="outputService" ref="outputService"></property>
     </bean>
 
-    <bean name="timeInterceptor" class="com.simon.aop.TimerInterceptor"></bean>
-
-    <bean name="autoProxy" class="com.simon.aop.AspectJAwareAdvisorAutoProxyCreator"></bean>
+    <bean name="beanInitializeLogger" class="com.simon.BeanInitializeLogger">
+    </bean>
 
 </beans>

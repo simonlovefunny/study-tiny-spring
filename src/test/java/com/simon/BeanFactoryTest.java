@@ -49,7 +49,7 @@ public class BeanFactoryTest {
         }
 
         //3.初始化bean
-        beanFactory.preInstanceSingletons();
+        beanFactory.preInstantiateSingletons();
 
         //4.获取bean
         HelloWorldService helloWorldService = (HelloWorldService)beanFactory.getBean("helloWorldService");

@@ -25,7 +25,7 @@ public class JdkDynamicAopProxyTest {
 
         //helloWorldService with aop
         AdvisedSupport advisedSupport = new AdvisedSupport();
-        TargetSource targetSource = new TargetSource(HelloWorldService.class,helloWorldService);
+        TargetSource targetSource = new TargetSource(helloWorldService,HelloWorldService.class);
         advisedSupport.setTargetSource(targetSource);
 
         //set interceptor

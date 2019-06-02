@@ -1,20 +1,11 @@
 package com.simon;
 
-import org.junit.Assert;
-
 /**
- * @author yihua.huang@dianping.com
+ * todo
+ *
+ * @Author: wuzhaoyi
+ * @version: $id:OutputService.java,v0.1  2019/6/2 4:14 PM wuzhaoyi Exp$
  */
-public class OutputService {
-
-    private HelloWorldService helloWorldService;
-
-    public void output(String text){
-        Assert.assertNotNull(helloWorldService);
-        System.out.println(text);
-    }
-
-    public void setHelloWorldService(HelloWorldService helloWorldService) {
-        this.helloWorldService = helloWorldService;
-    }
+public interface OutputService {
+    void output(String text);
 }

@@ -19,4 +19,14 @@ public class ApplicationContextTest {
 
         helloWorldService.helloWorld();
     }
+
+    @Test
+    public void testProcessor() throws Exception{
+        ApplicationContext applicationContext = new ClassPathXmlApplicationContext("studyTiny-postbeanprocessor.xml");
+
+        HelloWorldService helloWorldService = (HelloWorldService)applicationContext.getBean("helloWorldService");
+
+        helloWorldService.helloWorld();
+    }
+
 }

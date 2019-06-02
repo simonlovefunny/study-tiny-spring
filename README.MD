@@ -22,6 +22,13 @@ advice 通知是切面的一种实现，可以完成简单的织入功能。通�
 advisor 顾问是切面的另一种实现，可以将通知以更为复杂的方式织入到目标对象，是将通知包装为更复杂切面的适配器
 
 
+AOP融入Spring创建bean的过程
+
+BeanPostProcessor BeanFactory提供了BeanPostProcessor，如果bean实现了BeanPostProcessor接口，那么spring在初始化bean的过程中就会优先找到它们，并在bean初始化的时候，调用这个接口方法。
+
+
+
+
 
 
 

@@ -6,7 +6,7 @@ package com.simon.aop;
  * @Author: wuzhaoyi
  * @version: $id:PointcutAdvisor.java,v0.1  2019/5/31 11:36 PM wuzhaoyi Exp$
  */
-public interface PointcutAdvisor {
+public interface PointcutAdvisor extends Advisor{
 
     PointCut getPointCut();
 }
