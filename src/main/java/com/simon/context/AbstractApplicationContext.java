@@ -17,14 +17,11 @@ public abstract class  AbstractApplicationContext implements ApplicationContext{
         this.beanFactory = abstractBeanFactory;
     }
 
-    public void refresh() throws Exception{
-
-    }
+    public abstract void refresh() throws Exception;
 
     @Override
     public Object getBean(String name) throws Exception {
         return beanFactory.getBean(name);
     }
-
 
 }

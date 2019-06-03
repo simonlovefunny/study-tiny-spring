@@ -9,4 +9,5 @@ import com.simon.beans.factory.BeanFactory;
  * @version: $id:ApplicationContext.java,v0.1  2019/5/27 10:03 PM wuzhaoyi Exp$
  */
 public interface ApplicationContext extends BeanFactory {
+
 }
