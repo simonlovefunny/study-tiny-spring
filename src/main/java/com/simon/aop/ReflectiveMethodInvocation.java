@@ -19,7 +19,7 @@ public class ReflectiveMethodInvocation implements MethodInvocation {
     /** 被代理的方法 */
     private Method method;
 
-    /** 方法入参数?如何获取 */
+    /** 方法入参 */
     private Object[] args;
 
     public ReflectiveMethodInvocation(Object target, Method method, Object[] args) {
